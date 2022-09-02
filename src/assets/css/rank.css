@@ -1,0 +1,135 @@
+body {
+
+  background-color: floralwhite
+}
+
+a{
+  text-decoration: none;
+}
+
+a:visited{
+  color: darkblue;
+}
+
+.item{
+  margin: 0 auto;
+  display: flex;
+  width: 80%;
+  padding: 10px 0;
+}
+
+.rank{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  max-height: 128px;
+  font-size: 34px;
+  font-weight: 600;
+  color: crimson;
+}
+
+.rank .num{
+  font-size: 40px;
+}
+.rank .text{
+  margin-top: 12px;
+  font-size: 18px;
+  vertical-align: bottom;
+}
+
+img{
+  width: 128px;
+  height: 128px;
+  padding: 0 15px;
+}
+
+.info{
+  width: 70%;
+}
+
+.info > div, .info a{
+  color: darkblue;
+  opacity: .8;
+  
+}
+
+.info .item-name{
+  width: 80%;
+  font-size: 14px;
+  font-weight: 600;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.info .item-name:hover ,.info .shop-name:hover, .info .review .count:hover{
+  color: crimson;
+  text-decoration: underline;
+
+}
+
+.info .shop-name{
+  font-size: 14px;
+  
+}
+.info .review{
+  font-size: 16px;
+  padding: 5px 0 3px
+  
+}
+
+.review{
+  display: flex;
+  align-items: center
+}
+
+.review .start{
+  position: relative;
+  height: 25px;
+  padding-right: 5px;
+  color: #ddd;
+  text-shadow: 0px 1px 0 #a2a2a2;
+}
+
+.review .start span{
+  font-size: 18px;
+}
+
+.review .start .start-top{
+
+  color: #FFD700;
+  position: absolute;
+  z-index: 1;
+  display: block; 
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+
+.review .start .start-bottom{
+  z-index: 0;
+}
+
+.review .count{
+  cursor: pointer;
+}
+
+.purchase{
+  display: flex;
+  align-items: center;
+  margin-left: 0 auto;
+  font-weight: 600;
+  color: crimson;
+  
+}
+.purchase .price{
+  padding-right: 7px; 
+  font-size: 22px;
+  
+}
+.purchase .ship-fee{
+  padding-top: 8px;
+  font-size: 14px;
+  vertical-align: baseline;
+}
