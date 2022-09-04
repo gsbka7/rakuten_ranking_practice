@@ -2,8 +2,8 @@
     <div class="title">
         <span>楽天商品ランキング ( Rakuten Ichiba Item Ranking )</span>
         <span>Vue.js，使用axios串接API</span>
-        <a href="https://ranking.rakuten.co.jp/realtime/" target="_blank" style="text-decoration:underline"><span>【楽天市場】総合 | 人気ランキング1位～（売れ筋商品） - リアルタイムランキング</span></a>
-    </div>
+        <div>API來源：<a href="https://webservice.rakuten.co.jp/" target="_blank" style="text-decoration:underline"><span>Rakuten Webservice</span></a>
+    </div></div>
 </template>
 
 <script>
